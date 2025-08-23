@@ -1,5 +1,14 @@
 @import "tailwindcss";
+@layer base, utils, components;
 
+@import '@webtui/css/base.css';
+
+/* Utils */
+@import '@webtui/css/utils/box.css';
+
+/* Components */
+@import '@webtui/css/components/button.css';
+@import '@webtui/css/components/typography.css';
 :root {
   --background: #ffffff;
   --foreground: #171717;
