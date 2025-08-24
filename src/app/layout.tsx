@@ -23,7 +23,7 @@ export default function RootLayout({
     children: React.ReactNode;
 }>) {
     return (
-        <html lang="en" data-webtui-theme="catppuccin-mocha">
+        <html lang="en" data-webtui-theme="catppuccin-mocha" className="antialiased">
             <body
                 className={`${geistSans.variable} ${geistMono.variable} antialiased`}
             >

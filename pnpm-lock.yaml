@@ -8,9 +8,15 @@ importers:
 
   .:
     dependencies:
+      '@opencode-ai/sdk':
+        specifier: ^0.5.15
+        version: 0.5.15
       '@webtui/css':
         specifier: ^0.1.5
         version: 0.1.5
+      '@webtui/theme-catppuccin':
+        specifier: ^0.0.3
+        version: 0.0.3
       next:
         specifier: 15.5.0
         version: 15.5.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
@@ -337,6 +343,9 @@ packages:
     resolution: {integrity: sha512-nn5ozdjYQpUCZlWGuxcJY/KpxkWQs4DcbMCmKojjyrYDEAGy4Ce19NN4v5MduafTwJlbKc99UA8YhSVqq9yPZA==}
     engines: {node: '>=12.4.0'}
 
+  '@opencode-ai/sdk@0.5.15':
+    resolution: {integrity: sha512-i/3O8F67Z59vW3UkbwIOtnVpTR0t8PYDA551+TTJ1PYv/eRabSiczRwcGxt3EFQwDa+qveQJB6h7Vl4gFadadA==}
+
   '@rtsao/scc@1.1.0':
     resolution: {integrity: sha512-zt6OdqaDoOnJ1ZYsCYGt9YmWzDXl4vQdKTyJev62gFhRGKdx7mcT54V9KIjg+d2wi9EXsPvAPKe7i7WjfVWB8g==}
 
@@ -613,6 +622,9 @@ packages:
 
   '@webtui/css@0.1.5':
     resolution: {integrity: sha512-6+yk/XjW4JHaRUJpglYcvE9pcxay+PmoPFYeedHksCz0JHp3POW0LG2c6q1hSu2y7U4V0yHO7/eQBC3P0qCyIw==}
+
+  '@webtui/theme-catppuccin@0.0.3':
+    resolution: {integrity: sha512-mn3qpyIDYzPm9DoDX7Rs/Ma/3YawbAZEu6/Cemj4kTodr4eBFuEOmkkd1RtChsXGH75fZ054MIzZoVwYvA5W2g==}
 
   acorn-jsx@5.3.2:
     resolution: {integrity: sha512-rq9s+JNhf0IChjtDXxllJ7g41oZk5SlXtp0LHwyA5cejwn7vKmKp4pPri6YEePv2PU65sAsegbXtIinmDFDXgQ==}
@@ -2040,6 +2052,8 @@ snapshots:
 
   '@nolyfill/is-core-module@1.0.39': {}
 
+  '@opencode-ai/sdk@0.5.15': {}
+
   '@rtsao/scc@1.1.0': {}
 
   '@rushstack/eslint-patch@1.12.0': {}
@@ -2296,6 +2310,8 @@ snapshots:
     optional: true
 
   '@webtui/css@0.1.5': {}
+
+  '@webtui/theme-catppuccin@0.0.3': {}
 
   acorn-jsx@5.3.2(acorn@8.15.0):
     dependencies:
